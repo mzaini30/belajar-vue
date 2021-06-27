@@ -5,7 +5,6 @@ specifiers:
   '@vue/compiler-sfc': ^3.0.5
   vite: ^2.3.8
   vue: ^3.0.5
-  vue-meta: ^2.4.0
   vue-router: '4'
 
 dependencies:
@@ -15,7 +14,6 @@ devDependencies:
   '@vitejs/plugin-vue': 1.2.3_@vue+compiler-sfc@3.1.2
   '@vue/compiler-sfc': 3.1.2_vue@3.1.2
   vite: 2.3.8
-  vue-meta: 2.4.0
   vue-router: 4.0.10_vue@3.1.2
 
 packages:
@@ -152,11 +150,6 @@ packages:
   /csstype/2.6.17:
     resolution: {integrity: sha512-u1wmTI1jJGzCJzWndZo8mk4wnPTZd1eOIYTYvuEyOQGfmDl3TrabCCfKnOC86FZwW/9djqTl933UF/cS425i9A==}
     dev: false
-
-  /deepmerge/4.2.2:
-    resolution: {integrity: sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==}
-    engines: {node: '>=0.10.0'}
-    dev: true
 
   /emojis-list/3.0.0:
     resolution: {integrity: sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==}
@@ -400,12 +393,6 @@ packages:
       rollup: 2.52.3
     optionalDependencies:
       fsevents: 2.3.2
-    dev: true
-
-  /vue-meta/2.4.0:
-    resolution: {integrity: sha512-XEeZUmlVeODclAjCNpWDnjgw+t3WA6gdzs6ENoIAgwO1J1d5p1tezDhtteLUFwcaQaTtayRrsx7GL6oXp/m2Jw==}
-    dependencies:
-      deepmerge: 4.2.2
     dev: true
 
   /vue-router/4.0.10_vue@3.1.2:
